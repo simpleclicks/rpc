@@ -1,0 +1,34 @@
+<head>
+  <title>game</title>
+</head>
+
+<body>
+
+<main>
+    {{> Template.dynamic template=main}}
+</main>
+</body>
+
+<template name="player1">
+    {{playa}}
+
+    {{gameStarted}}
+
+    <br>
+    <button>Rock</button>
+    <button>Paper</button>
+    <button>Scissor</button>
+
+</template>
+
+
+<template name="player2">
+    {{player}}
+
+    {{gameStarted}}
+
+    <br>
+    <button>Rock</button>
+    <button>Paper</button>
+    <button>Scissor</button>
+</template>
